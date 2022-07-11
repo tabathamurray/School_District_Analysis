@@ -42,19 +42,33 @@ For the written analysis, you should use the repository README.md to write your 
 
 **Overview of the school district analysis:** Explain the purpose of this analysis.
 
+The purpose of this analysis was to show a thorough understanding of replacing data using conditional statements and comparisons and creating detailed summary that the school board can understand.  
+
 **Results:** Using a bulleted list, address the following questions. Use images and examples of your code if necessary to support your evidence.
 
-* How is the district summary affected?
+* How is the district summary affected? 
+* There is hardly no change in the data after removing the 9th graders.
 * How is the school summary affected?
+* The main change is to Thomas High School. By dropping the 9th grade scores, the % Passing Math decreased (before: 93.27 & after: 66.91), the % Passing Reading decreased (before: 97.31 & after: 69.66), and the % Overall passing decreased (before: 90.95 & after: 65.08).
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance, relative to the other schools?
+* Their scores previously placed them in the Top 5 schools, but after replacing the scores, they dropped to the bottom 5 schools in percentage overall passing.
 * How does replacing the ninth grade scores affect the following:
 
   * Math and Reading Scores by Grade
+  * 9th grade - scores were dropped
+  * There are no changes to grade 10th - 12th.
   * Scores by School Spending
+  * There are no changes.
   * Scores by School Size
+  * There are no changes.
   * Scores by School Type
+  * There are no changes.
 
 **Summary:** Give a high-level summary of the three to four of most striking changes to the school district analysis after replacing the reading and math scores for the ninth grade at Thomas High School with NaN.
+
+1. Their scores previously placed them in the Top 5 schools, but after replacing the scores, they dropped to the bottom 5 schools in percentage overall passing.
+2. Thomas High School percentage for passing math, reading, and overall significantly decreased.
+3. When comparing the passing percentages, there is no real significant change in the total numbers
 
 The README.md document should be in the home directory of your repository. All links should be working, and images and code should be formatted and displayed where appropriate.
 
